@@ -13,8 +13,8 @@
 import socket
 
 def main():
-    IP = '104.131.187.248' # Change to 127.0.0.1 to run the server locally.
-    #IP = '127.0.0.1'
+    # IP = '104.131.187.248' # Change to 127.0.0.1 to run the server locally.
+    IP = '127.0.0.1'
     port = 5005
     buffer = 2048
 

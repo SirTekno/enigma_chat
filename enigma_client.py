@@ -184,7 +184,7 @@ def main():
     user = raw_input('Enter your username: ')
     dest_user = raw_input('Enter the name of the user you would like to talk to: ')
     key = raw_input('Enter conversation key: ')
-    client = Client(user, key, dest_user, ip="104.131.187.248")
+    client = Client(user, key, dest_user, ip="127.0.0.1")
 
     # Starts pinging the server ever few seconds for a new message
     Thread(target = client.ping).start()
